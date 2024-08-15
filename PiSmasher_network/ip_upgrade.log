@@ -1,0 +1,58 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2.2 (lin64) Build 4126759 Thu Feb  8 23:52:05 MST 2024
+| Date         : Fri Apr 26 22:40:29 2024
+| Host         : Ubuntu2204 running 64-bit Ubuntu 22.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snkrddl_blk_0_proc_sys_reset_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snkrddl_blk_0_proc_sys_reset_0_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2.2 (lin64) Build 4126759 Thu Feb  8 23:52:05 MST 2024
+| Date         : Fri Apr 26 22:40:29 2024
+| Host         : Ubuntu2204 running 64-bit Ubuntu 22.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snkrddl_blk_0_gmii_to_rgmii_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snkrddl_blk_0_gmii_to_rgmii_1_0 (xilinx.com:ip:gmii_to_rgmii:4.1) from (Rev. 4) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2.2 (lin64) Build 4126759 Thu Feb  8 23:52:05 MST 2024
+| Date         : Fri Apr 26 22:40:29 2024
+| Host         : Ubuntu2204 running 64-bit Ubuntu 22.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snkrddl_blk_0_gmii_to_rgmii_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of snkrddl_blk_0_gmii_to_rgmii_0_0 (xilinx.com:ip:gmii_to_rgmii:4.1) from (Rev. 4) to (Rev. 13)
+

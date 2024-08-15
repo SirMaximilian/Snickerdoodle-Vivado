@@ -1,0 +1,633 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:52:05 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Sat Aug 10 12:27:17 2024
+# Process ID: 2161087
+# Current directory: /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/impl_1
+# Command line: vivado -log snkrddl_blk_0_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source snkrddl_blk_0_wrapper.tcl -notrace
+# Log file: /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/impl_1/snkrddl_blk_0_wrapper.vdi
+# Journal file: /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/impl_1/vivado.jou
+# Running On: Ubuntu2204, OS: Linux, CPU Frequency: 3399.998 MHz, CPU Physical cores: 14, Host memory: 33644 MB
+#-----------------------------------------------------------
+INFO: [Common 17-1460] Use of init.tcl in /home/tasker/.Xilinx/Vivado/init.tcl is deprecated. Please use Vivado_init.tcl 
+Sourcing tcl script '/home/tasker/.Xilinx/Vivado/init.tcl'
+source snkrddl_blk_0_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1310.477 ; gain = 0.023 ; free physical = 19099 ; free virtual = 27320
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/tasker/Programs/Xilinx/Vivado/2023.2/data/ip'.
+Command: link_design -top snkrddl_blk_0_wrapper -part xc7z020clg400-3
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg400-3
+INFO: [Project 1-454] Reading design checkpoint '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/snkrddl_blk_0_gmii_to_rgmii_0_0.dcp' for cell 'snkrddl_blk_0_i/gmii_to_rgmii_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/snkrddl_blk_0_gmii_to_rgmii_1_0.dcp' for cell 'snkrddl_blk_0_i/gmii_to_rgmii_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_proc_sys_reset_0_0/snkrddl_blk_0_proc_sys_reset_0_0.dcp' for cell 'snkrddl_blk_0_i/proc_sys_reset_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_processing_system7_0_0/snkrddl_blk_0_processing_system7_0_0.dcp' for cell 'snkrddl_blk_0_i/processing_system7_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1666.820 ; gain = 0.000 ; free physical = 18774 ; free virtual = 26995
+INFO: [Netlist 29-17] Analyzing 58 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_processing_system7_0_0/snkrddl_blk_0_processing_system7_0_0.xdc] for cell 'snkrddl_blk_0_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_processing_system7_0_0/snkrddl_blk_0_processing_system7_0_0.xdc] for cell 'snkrddl_blk_0_i/processing_system7_0/inst'
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_proc_sys_reset_0_0/snkrddl_blk_0_proc_sys_reset_0_0_board.xdc] for cell 'snkrddl_blk_0_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_proc_sys_reset_0_0/snkrddl_blk_0_proc_sys_reset_0_0_board.xdc] for cell 'snkrddl_blk_0_i/proc_sys_reset_0/U0'
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_proc_sys_reset_0_0/snkrddl_blk_0_proc_sys_reset_0_0.xdc] for cell 'snkrddl_blk_0_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_proc_sys_reset_0_0/snkrddl_blk_0_proc_sys_reset_0_0.xdc] for cell 'snkrddl_blk_0_i/proc_sys_reset_0/U0'
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0.xdc] for cell 'snkrddl_blk_0_i/gmii_to_rgmii_0/U0'
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0.xdc] for cell 'snkrddl_blk_0_i/gmii_to_rgmii_0/U0'
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0.xdc] for cell 'snkrddl_blk_0_i/gmii_to_rgmii_1/U0'
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0.xdc] for cell 'snkrddl_blk_0_i/gmii_to_rgmii_1/U0'
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.srcs/constrs_1/new/eth_pinout.xdc]
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.srcs/constrs_1/new/eth_pinout.xdc]
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_clocks.xdc] for cell 'snkrddl_blk_0_i/gmii_to_rgmii_0/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_clocks.xdc:4]
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2447.301 ; gain = 569.828 ; free physical = 18228 ; free virtual = 26449
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'snkrddl_blk_0_gmii_to_rgmii_0_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_clocks.xdc:7]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -include_generated_clocks -of_objects [get_pins -of [get_cells -hier -filter {name =~ *i_bufgmux_gmii_clk}] -filter {name =~ *O}]'. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_clocks.xdc:46]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_clocks.xdc:46]
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_clocks.xdc] for cell 'snkrddl_blk_0_i/gmii_to_rgmii_0/U0'
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc] for cell 'snkrddl_blk_0_i/gmii_to_rgmii_1/U0'
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'snkrddl_blk_0_gmii_to_rgmii_1_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:7]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -include_generated_clocks -of_objects [get_pins -of [get_cells -hier -filter {name =~ *i_bufgmux_gmii_clk}] -filter {name =~ *O}]'. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:46]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:46]
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc] for cell 'snkrddl_blk_0_i/gmii_to_rgmii_1/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 4 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2549.285 ; gain = 0.000 ; free physical = 18224 ; free virtual = 26445
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+20 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2549.285 ; gain = 1238.809 ; free physical = 18223 ; free virtual = 26444
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2549.285 ; gain = 0.000 ; free physical = 18211 ; free virtual = 26432
+
+Starting Cache Timing Information Task
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'snkrddl_blk_0_gmii_to_rgmii_0_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_clocks.xdc:7]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'snkrddl_blk_0_gmii_to_rgmii_1_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:7]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 95faa862
+
+Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2549.285 ; gain = 0.000 ; free physical = 18211 ; free virtual = 26432
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 95faa862
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26137
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 95faa862
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26137
+Phase 1 Initialization | Checksum: 95faa862
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26137
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 95faa862
+
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 95faa862
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+Phase 2 Timer Update And Timing Data Collection | Checksum: 95faa862
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+
+Phase 3 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: dd67b778
+
+Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+Retarget | Checksum: dd67b778
+INFO: [Opt 31-389] Phase Retarget created 2 cells and removed 27 cells
+INFO: [Opt 31-1021] In phase Retarget, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: dd67b778
+
+Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.14 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+Constant propagation | Checksum: dd67b778
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: cd449d82
+
+Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.29 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+Sweep | Checksum: cd449d82
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 106 cells
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG ETH0_CLK125_IBUF_BUFG_inst to drive 47 load(s) on clock net ETH0_CLK125_IBUF_BUFG
+INFO: [Opt 31-194] Inserted BUFG ETH1_CLK125_IBUF_BUFG_inst to drive 47 load(s) on clock net ETH1_CLK125_IBUF_BUFG
+INFO: [Opt 31-194] Inserted BUFG snkrddl_blk_0_i/processing_system7_0/inst/FCLK_CLK3_BUFG_inst to drive 36 load(s) on clock net snkrddl_blk_0_i/processing_system7_0/inst/FCLK_CLK3_BUFG
+INFO: [Opt 31-193] Inserted 3 BUFG(s) on clock nets
+Phase 6 BUFG optimization | Checksum: 1071f61e9
+
+Time (s): cpu = 00:00:00.35 ; elapsed = 00:00:00.31 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+BUFG optimization | Checksum: 1071f61e9
+INFO: [Opt 31-662] Phase BUFG optimization created 3 cells of which 3 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 1071f61e9
+
+Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:00.32 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+Shift Register Optimization | Checksum: 1071f61e9
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 12b1ff4db
+
+Time (s): cpu = 00:00:00.37 ; elapsed = 00:00:00.33 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+Post Processing Netlist | Checksum: 12b1ff4db
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 16d40a334
+
+Time (s): cpu = 00:00:00.46 ; elapsed = 00:00:00.39 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 16d40a334
+
+Time (s): cpu = 00:00:00.47 ; elapsed = 00:00:00.4 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+Phase 9 Finalization | Checksum: 16d40a334
+
+Time (s): cpu = 00:00:00.47 ; elapsed = 00:00:00.4 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               2  |              27  |                                              2  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |             106  |                                              0  |
+|  BUFG optimization            |               3  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 16d40a334
+
+Time (s): cpu = 00:00:00.48 ; elapsed = 00:00:00.4 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17915 ; free virtual = 26136
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 16d40a334
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17914 ; free virtual = 26136
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 16d40a334
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17914 ; free virtual = 26136
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17914 ; free virtual = 26136
+Ending Netlist Obfuscation Task | Checksum: 16d40a334
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2753.152 ; gain = 0.000 ; free physical = 17914 ; free virtual = 26136
+INFO: [Common 17-83] Releasing license: Implementation
+45 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+INFO: [runtcl-4] Executing : report_drc -file snkrddl_blk_0_wrapper_drc_opted.rpt -pb snkrddl_blk_0_wrapper_drc_opted.pb -rpx snkrddl_blk_0_wrapper_drc_opted.rpx
+Command: report_drc -file snkrddl_blk_0_wrapper_drc_opted.rpt -pb snkrddl_blk_0_wrapper_drc_opted.pb -rpx snkrddl_blk_0_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/impl_1/snkrddl_blk_0_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'snkrddl_blk_0_gmii_to_rgmii_0_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_clocks.xdc:7]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'snkrddl_blk_0_gmii_to_rgmii_1_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:7]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17909 ; free virtual = 26131
+Wrote PlaceDB: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17909 ; free virtual = 26130
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17909 ; free virtual = 26130
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17903 ; free virtual = 26125
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17903 ; free virtual = 26125
+Wrote Device Cache: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17903 ; free virtual = 26126
+Write Physdb Complete: Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17903 ; free virtual = 26126
+INFO: [Common 17-1381] The checkpoint '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/impl_1/snkrddl_blk_0_wrapper_opt.dcp' has been generated.
+Command: read_checkpoint -auto_incremental -incremental /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.srcs/utils_1/imports/impl_1/snkrddl_blk_0_wrapper_routed.dcp
+INFO: [Vivado 12-9151] Incremental flow is being run with directive 'RuntimeOptimized'. This will override place_design, post-place phys_opt_design and route_design directives.
+
+Starting Incremental read checkpoint Task
+
+Phase 1 Process Reference Checkpoint Netlist
+INFO: [Netlist 29-17] Analyzing 58 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+
+Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.17 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17895 ; free virtual = 26118
+
+Phase 2 Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17895 ; free virtual = 26118
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17895 ; free virtual = 26118
+
+Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.24 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17895 ; free virtual = 26118
+
+Phase 3 Replay Physical Synthesis Transforms
+INFO: [Vivado_Tcl 4-521] iPhys_opt_design summary: tried 0 changes and 0 changes are successfully applied
+
+Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.25 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17895 ; free virtual = 26118
+
+Phase 4 Build Reuse DB
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17895 ; free virtual = 26118
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Read Netlist Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26117
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26117
+Read PlaceDB: Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:00.36 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26117
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26117
+Read RouteStorage: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26117
+Read Physdb Files: Time (s): cpu = 00:00:00.44 ; elapsed = 00:00:00.43 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26117
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.55 ; elapsed = 00:00:00.54 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26117
+INFO: [Designutils 20-2297] Reference Design: /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.srcs/utils_1/imports/impl_1/snkrddl_blk_0_wrapper_routed.dcp, Summary | WNS = 2.116 | WHS = 0.269 | State = POST_ROUTE |
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26117
+
+Phase 5 Checking legality
+Phase 5 Checking legality | Checksum: 12c437a42
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26117
+
+Phase 6 Reporting
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2.2 (lin64) Build 4126759 Thu Feb  8 23:52:05 MST 2024
+| Date         : Sat Aug 10 12:27:59 2024
+| Host         : Ubuntu2204 running 64-bit Ubuntu 22.04.4 LTS
+| Design       : snkrddl_blk_0_wrapper
+| Device       : xc7z020
+| Design State : Unknown
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Incremental Implementation Information
+
+Table of Contents
+-----------------
+1. Incremental Flow Summary
+2. Reuse Summary
+3. Reference Checkpoint Information
+4. Comparison with Reference Run
+5. Optimization Comparison With Reference Run
+5.1 iphys_opt_replay Optimizations
+5.2 QoR Suggestion Optimizations
+6. Command Comparison with Reference Run
+6.1 Reference:
+6.2 Incremental:
+7. Non Reuse Information
+
+1. Incremental Flow Summary
+---------------------------
+
++-----------------------+------------------+
+|    Flow Information   |       Value      |
++-----------------------+------------------+
+| Synthesis Flow        |          Default |
+| Auto Incremental      |              Yes |
+| Incremental Directive | RuntimeOptimized |
+| Target WNS            |              0.0 |
+| QoR Suggestions       |                0 |
++-----------------------+------------------+
+
+
+2. Reuse Summary
+----------------
+
++-------+----------------------+----------------------------+--------------------+-------+
+|  Type | Matched % (of Total) | Current Reuse % (of Total) | Fixed % (of Total) | Total |
++-------+----------------------+----------------------------+--------------------+-------+
+| Cells |               100.00 |                     100.00 |              17.90 |  1100 |
+| Nets  |               100.00 |                     100.00 |               0.00 |   886 |
+| Pins  |                    - |                     100.00 |                  - |  3477 |
+| Ports |               100.00 |                     100.00 |             100.00 |   160 |
++-------+----------------------+----------------------------+--------------------+-------+
+
+
+3. Reference Checkpoint Information
+-----------------------------------
+
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| DCP Location:  | /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.srcs/utils_1/imports/impl_1/snkrddl_blk_0_wrapper_routed.dcp |
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------+----------------------------+
+|         DCP Information        |            Value           |
++--------------------------------+----------------------------+
+| DCP State                      |                 POST_ROUTE |
+| Recorded WNS                   |                      2.116 |
+| Recorded WHS                   |                      0.269 |
+| Reference Speed File Version   | PRODUCTION 1.12 2019-11-22 |
+| Incremental Speed File Version | PRODUCTION 1.12 2019-11-22 |
++--------------------------------+----------------------------+
+* Recorded WNS/WHS timing numbers are estimated timing numbers. They may vary slightly from sign-off timing numbers.
+
+
+4. Comparison with Reference Run
+--------------------------------
+
++-----------------+---------------------------+---------------------------+---------------------------+
+|                 |          WNS(ns)          |  Runtime(elapsed)(hh:mm)  |    Runtime(cpu)(hh:mm)    |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|      Stage      |  Reference  | Incremental |  Reference  | Incremental |  Reference  | Incremental |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| synth_design    |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| opt_design      |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| read_checkpoint |             |             |     < 1 min |             |     < 1 min |             |
+| place_design    |       0.178 |             |     < 1 min |             |     < 1 min |             |
+| phys_opt_design |       0.178 |             |     < 1 min |             |     < 1 min |             |
+| route_design    |       0.178 |             |       00:01 |             |       00:01 |             |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+
+5. Optimization Comparison With Reference Run
+---------------------------------------------
+
+5.1 iphys_opt_replay Optimizations
+----------------------------------
+
++-------------------------+--------+------------+
+| iphys_opt_design replay | Reused | Not Reused |
++-------------------------+--------+------------+
+
+
+5.2 QoR Suggestion Optimizations
+--------------------------------
+
++-----------------+-------+
+| QoR Suggestions | Value |
++-----------------+-------+
+
+
+6. Command Comparison with Reference Run
+----------------------------------------
+
+6.1 Reference:
+--------------
+synth_design-define default::[not_specified] -verilog_define default::[not_specified] -vhdl_define default::[not_specified] -top  snkrddl_blk_0_wrapper -part  xc7z020clg400-3 
+opt_design
+read_checkpoint -directive RuntimeOptimized  -incremental -auto_incremental /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.srcs/utils_1/imports/impl_1/snkrddl_blk_0_wrapper_routed.dcp
+place_design
+phys_opt_design
+route_design
+
+6.2 Incremental:
+----------------
+synth_design-define default::[not_specified] -verilog_define default::[not_specified] -vhdl_define default::[not_specified] -top  snkrddl_blk_0_wrapper -part  xc7z020clg400-3 
+opt_design
+read_checkpoint -directive RuntimeOptimized  -incremental -auto_incremental /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.srcs/utils_1/imports/impl_1/snkrddl_blk_0_wrapper_routed.dcp
+
+7. Non Reuse Information
+------------------------
+
++-----------------------+------+
+|          Type         |   %  |
++-----------------------+------+
+| Non-Reused Cells      | 0.00 |
+| Partially reused nets | 0.00 |
+| Non-Reused nets       | 0.00 |
+| Non-Reused Ports      | 0.00 |
++-----------------------+------+
+
+
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26117
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26117
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-83] Releasing license: Implementation
+
+Starting Incremental Placer Task
+INFO: [Vivado_Tcl 4-24] Running Incremental Placer flow for unplaced cells using reference design-checkpoint '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.srcs/utils_1/imports/impl_1/snkrddl_blk_0_wrapper_routed.dcp'.
+INFO: [Place 46-44] place_design is using directive Default with target WNS of 0 ns.
+INFO: [Place 30-281] No place-able instance is found; design doesn't contain any instance or all instances are placed
+
+Reference - Incremental Comparison Summary
+
+1. Comparison with Reference Run
+--------------------------------
+
++-----------------+---------------------------+---------------------------+---------------------------+
+|                 |          WNS(ns)          |  Runtime(elapsed)(hh:mm)  |    Runtime(cpu)(hh:mm)    |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|      Stage      |  Reference  | Incremental |  Reference  | Incremental |  Reference  | Incremental |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| synth_design    |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| opt_design      |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| read_checkpoint |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| place_design    |       0.178 |       2.116 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| phys_opt_design |       0.178 |             |     < 1 min |             |     < 1 min |             |
+| route_design    |       0.178 |             |       00:01 |             |       00:01 |             |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+
+Ending Incremental Placer Task | Checksum: 12c437a42
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17898 ; free virtual = 26121
+65 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+INFO: [runtcl-4] Executing : report_io -file snkrddl_blk_0_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.24 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17895 ; free virtual = 26119
+INFO: [runtcl-4] Executing : report_utilization -file snkrddl_blk_0_wrapper_utilization_placed.rpt -pb snkrddl_blk_0_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file snkrddl_blk_0_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17892 ; free virtual = 26115
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17902 ; free virtual = 26126
+Wrote PlaceDB: Time (s): cpu = 00:00:00.57 ; elapsed = 00:00:00.33 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17895 ; free virtual = 26123
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17895 ; free virtual = 26123
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26123
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26123
+Wrote Device Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26124
+Write Physdb Complete: Time (s): cpu = 00:00:00.63 ; elapsed = 00:00:00.4 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17894 ; free virtual = 26124
+INFO: [Common 17-1381] The checkpoint '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/impl_1/snkrddl_blk_0_wrapper_placed.dcp' has been generated.
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:00.35 ; elapsed = 00:00:00.17 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17885 ; free virtual = 26110
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+
+Reference - Incremental Comparison Summary
+
+1. Comparison with Reference Run
+--------------------------------
+
++-----------------+---------------------------+---------------------------+---------------------------+
+|                 |          WNS(ns)          |  Runtime(elapsed)(hh:mm)  |    Runtime(cpu)(hh:mm)    |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|      Stage      |  Reference  | Incremental |  Reference  | Incremental |  Reference  | Incremental |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| synth_design    |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| opt_design      |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| read_checkpoint |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| place_design    |       0.178 |       2.116 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| phys_opt_design |       0.178 |       2.116 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| route_design    |       0.178 |             |       00:01 |             |       00:01 |             |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+
+INFO: [Common 17-83] Releasing license: Implementation
+74 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17883 ; free virtual = 26108
+Wrote PlaceDB: Time (s): cpu = 00:00:00.6 ; elapsed = 00:00:00.35 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17859 ; free virtual = 26089
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17859 ; free virtual = 26089
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17858 ; free virtual = 26088
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17858 ; free virtual = 26088
+Wrote Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17857 ; free virtual = 26088
+Write Physdb Complete: Time (s): cpu = 00:00:00.66 ; elapsed = 00:00:00.42 . Memory (MB): peak = 2845.164 ; gain = 0.000 ; free physical = 17857 ; free virtual = 26088
+INFO: [Common 17-1381] The checkpoint '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/impl_1/snkrddl_blk_0_wrapper_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+antenna Cleanup:Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2883.352 ; gain = 0.000 ; free physical = 17834 ; free virtual = 26060
+
+Reference - Incremental Comparison Summary
+
+1. Comparison with Reference Run
+--------------------------------
+
++-----------------+---------------------------+---------------------------+---------------------------+
+|                 |          WNS(ns)          |  Runtime(elapsed)(hh:mm)  |    Runtime(cpu)(hh:mm)    |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|      Stage      |  Reference  | Incremental |  Reference  | Incremental |  Reference  | Incremental |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| synth_design    |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| opt_design      |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| read_checkpoint |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| place_design    |       0.178 |       2.116 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| phys_opt_design |       0.178 |       2.116 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| route_design    |       0.178 |       2.116 |       00:01 |     < 1 min |       00:01 |     < 1 min |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+
+INFO: [Common 17-83] Releasing license: Implementation
+81 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+INFO: [runtcl-4] Executing : report_drc -file snkrddl_blk_0_wrapper_drc_routed.rpt -pb snkrddl_blk_0_wrapper_drc_routed.pb -rpx snkrddl_blk_0_wrapper_drc_routed.rpx
+Command: report_drc -file snkrddl_blk_0_wrapper_drc_routed.rpt -pb snkrddl_blk_0_wrapper_drc_routed.pb -rpx snkrddl_blk_0_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/impl_1/snkrddl_blk_0_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file snkrddl_blk_0_wrapper_methodology_drc_routed.rpt -pb snkrddl_blk_0_wrapper_methodology_drc_routed.pb -rpx snkrddl_blk_0_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file snkrddl_blk_0_wrapper_methodology_drc_routed.rpt -pb snkrddl_blk_0_wrapper_methodology_drc_routed.pb -rpx snkrddl_blk_0_wrapper_methodology_drc_routed.rpx
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'snkrddl_blk_0_gmii_to_rgmii_0_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_clocks.xdc:7]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'snkrddl_blk_0_gmii_to_rgmii_1_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:7]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/impl_1/snkrddl_blk_0_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file snkrddl_blk_0_wrapper_power_routed.rpt -pb snkrddl_blk_0_wrapper_power_summary_routed.pb -rpx snkrddl_blk_0_wrapper_power_routed.rpx
+Command: report_power -file snkrddl_blk_0_wrapper_power_routed.rpt -pb snkrddl_blk_0_wrapper_power_summary_routed.pb -rpx snkrddl_blk_0_wrapper_power_routed.rpx
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'snkrddl_blk_0_gmii_to_rgmii_0_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_clocks.xdc:7]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'snkrddl_blk_0_gmii_to_rgmii_1_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:7]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+95 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file snkrddl_blk_0_wrapper_route_status.rpt -pb snkrddl_blk_0_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file snkrddl_blk_0_wrapper_timing_summary_routed.rpt -pb snkrddl_blk_0_wrapper_timing_summary_routed.pb -rpx snkrddl_blk_0_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -3, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file snkrddl_blk_0_wrapper_incremental_reuse_routed.rpt
+INFO: [runtcl-4] Executing : report_clock_utilization -file snkrddl_blk_0_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file snkrddl_blk_0_wrapper_bus_skew_routed.rpt -pb snkrddl_blk_0_wrapper_bus_skew_routed.pb -rpx snkrddl_blk_0_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -3, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2951.203 ; gain = 0.000 ; free physical = 17776 ; free virtual = 26006
+Wrote PlaceDB: Time (s): cpu = 00:00:00.59 ; elapsed = 00:00:00.33 . Memory (MB): peak = 2951.203 ; gain = 0.000 ; free physical = 17768 ; free virtual = 26002
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2951.203 ; gain = 0.000 ; free physical = 17768 ; free virtual = 26002
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2951.203 ; gain = 0.000 ; free physical = 17767 ; free virtual = 26002
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2951.203 ; gain = 0.000 ; free physical = 17767 ; free virtual = 26002
+Wrote Device Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2951.203 ; gain = 0.000 ; free physical = 17766 ; free virtual = 26002
+Write Physdb Complete: Time (s): cpu = 00:00:00.65 ; elapsed = 00:00:00.4 . Memory (MB): peak = 2951.203 ; gain = 0.000 ; free physical = 17766 ; free virtual = 26002
+INFO: [Common 17-1381] The checkpoint '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/impl_1/snkrddl_blk_0_wrapper_routed.dcp' has been generated.
+Command: write_bitstream -force snkrddl_blk_0_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./snkrddl_blk_0_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+14 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 3191.234 ; gain = 240.031 ; free physical = 17482 ; free virtual = 25717
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 10 12:28:20 2024...

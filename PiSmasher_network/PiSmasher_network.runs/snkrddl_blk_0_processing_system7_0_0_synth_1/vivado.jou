@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:52:05 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Sat Aug 10 12:02:39 2024
+# Process ID: 2106429
+# Current directory: /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/snkrddl_blk_0_processing_system7_0_0_synth_1
+# Command line: vivado -log snkrddl_blk_0_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source snkrddl_blk_0_processing_system7_0_0.tcl
+# Log file: /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/snkrddl_blk_0_processing_system7_0_0_synth_1/snkrddl_blk_0_processing_system7_0_0.vds
+# Journal file: /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/snkrddl_blk_0_processing_system7_0_0_synth_1/vivado.jou
+# Running On: Ubuntu2204, OS: Linux, CPU Frequency: 3399.998 MHz, CPU Physical cores: 14, Host memory: 33644 MB
+#-----------------------------------------------------------
+source snkrddl_blk_0_processing_system7_0_0.tcl -notrace

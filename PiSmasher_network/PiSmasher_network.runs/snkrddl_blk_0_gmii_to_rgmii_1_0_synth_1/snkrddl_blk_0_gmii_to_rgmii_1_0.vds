@@ -1,0 +1,371 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:52:05 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Sat Aug 10 12:02:39 2024
+# Process ID: 2106428
+# Current directory: /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/snkrddl_blk_0_gmii_to_rgmii_1_0_synth_1
+# Command line: vivado -log snkrddl_blk_0_gmii_to_rgmii_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source snkrddl_blk_0_gmii_to_rgmii_1_0.tcl
+# Log file: /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/snkrddl_blk_0_gmii_to_rgmii_1_0_synth_1/snkrddl_blk_0_gmii_to_rgmii_1_0.vds
+# Journal file: /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/snkrddl_blk_0_gmii_to_rgmii_1_0_synth_1/vivado.jou
+# Running On: Ubuntu2204, OS: Linux, CPU Frequency: 3399.998 MHz, CPU Physical cores: 14, Host memory: 33644 MB
+#-----------------------------------------------------------
+INFO: [Common 17-1460] Use of init.tcl in /home/tasker/.Xilinx/Vivado/init.tcl is deprecated. Please use Vivado_init.tcl 
+Sourcing tcl script '/home/tasker/.Xilinx/Vivado/init.tcl'
+source snkrddl_blk_0_gmii_to_rgmii_1_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1262.148 ; gain = 10.930 ; free physical = 18981 ; free virtual = 27098
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: snkrddl_blk_0_gmii_to_rgmii_1_0
+Command: synth_design -top snkrddl_blk_0_gmii_to_rgmii_1_0 -part xc7z020clg400-3 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-3
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2107118
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2033.207 ; gain = 402.715 ; free physical = 15875 ; free virtual = 24022
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'snkrddl_blk_0_gmii_to_rgmii_1_0' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0.vhd:124]
+INFO: [Synth 8-3491] module 'snkrddl_blk_0_gmii_to_rgmii_1_0_block' declared at '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:87' bound to instance 'U0' of component 'snkrddl_blk_0_gmii_to_rgmii_1_0_block' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0.vhd:184]
+INFO: [Synth 8-638] synthesizing module 'snkrddl_blk_0_gmii_to_rgmii_1_0_block' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:133]
+INFO: [Synth 8-113] binding component instance 'rgmii_txc_obuf_i' to cell 'OBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:206]
+INFO: [Synth 8-113] binding component instance 'rgmii_tx_ctl_obuf_i' to cell 'OBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:212]
+INFO: [Synth 8-113] binding component instance 'rgmii_txd_obuf_i' to cell 'OBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:219]
+INFO: [Synth 8-113] binding component instance 'rgmii_txd_obuf_i' to cell 'OBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:219]
+INFO: [Synth 8-113] binding component instance 'rgmii_txd_obuf_i' to cell 'OBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:219]
+INFO: [Synth 8-113] binding component instance 'rgmii_txd_obuf_i' to cell 'OBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:219]
+INFO: [Synth 8-113] binding component instance 'rgmii_rxc_ibuf_i' to cell 'IBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:226]
+INFO: [Synth 8-113] binding component instance 'rgmii_rx_ctl_ibuf_i' to cell 'IBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:232]
+INFO: [Synth 8-113] binding component instance 'rgmii_rxd_ibuf_i' to cell 'IBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:239]
+INFO: [Synth 8-113] binding component instance 'rgmii_rxd_ibuf_i' to cell 'IBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:239]
+INFO: [Synth 8-113] binding component instance 'rgmii_rxd_ibuf_i' to cell 'IBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:239]
+INFO: [Synth 8-113] binding component instance 'rgmii_rxd_ibuf_i' to cell 'IBUF' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:239]
+WARNING: [Synth 8-5640] Port 'idelay_load_in' is missing in component declaration [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:135]
+WARNING: [Synth 8-5640] Port 'idelay_cntvalue_in' is missing in component declaration [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:135]
+WARNING: [Synth 8-5640] Port 'odelay_load_in' is missing in component declaration [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:135]
+WARNING: [Synth 8-5640] Port 'odelay_cntvalue_in' is missing in component declaration [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:135]
+	Parameter C_RGMII_TXC_SKEW_EN bound to: 0 - type: integer 
+	Parameter C_RGMII_TXC_ODELAY_VAL bound to: 0 - type: integer 
+	Parameter C_IDELAY_DELAY_VAL bound to: 5'b00000 
+	Parameter C_ODELAY_DELAY_VAL bound to: 5'b11111 
+	Parameter C_VERSAL_SIM_DEVICE bound to: UNKNOWN_DEVICE - type: string 
+	Parameter C_DEVICE_TYPE bound to: 0 - type: integer 
+	Parameter C_PHYADDR bound to: 5'b01001 
+INFO: [Synth 8-3491] module 'gmii_to_rgmii_v4_1_13' declared at '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ipshared/c5e4/hdl/gmii_to_rgmii_v4_1_vhsyn_rfs.vhd:3287' bound to instance 'snkrddl_blk_0_gmii_to_rgmii_1_0_core' of component 'gmii_to_rgmii_v4_1_13' [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:247]
+INFO: [Synth 8-256] done synthesizing module 'snkrddl_blk_0_gmii_to_rgmii_1_0_block' (0#1) [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd:133]
+INFO: [Synth 8-256] done synthesizing module 'snkrddl_blk_0_gmii_to_rgmii_1_0' (0#1) [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0.vhd:124]
+WARNING: [Synth 8-7129] Port enable in module reset_sync is either unconnected or has no load
+WARNING: [Synth 8-7129] Port speed_selection[0] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port iodelay_clk in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_load in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvaluein[4] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvaluein[3] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvaluein[2] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvaluein[1] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvaluein[0] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_load in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvaluein[4] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvaluein[3] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvaluein[2] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvaluein[1] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvaluein[0] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_load_in in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[4] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[3] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[2] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[1] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[0] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_load_in in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[4] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[3] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[2] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[1] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[0] in module gmii_to_rgmii_gen is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2113.145 ; gain = 482.652 ; free physical = 15558 ; free virtual = 23711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2127.988 ; gain = 497.496 ; free physical = 15551 ; free virtual = 23705
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2127.988 ; gain = 497.496 ; free physical = 15551 ; free virtual = 23705
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2133.926 ; gain = 0.000 ; free physical = 15539 ; free virtual = 23691
+INFO: [Netlist 29-17] Analyzing 88 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0.xdc] for cell 'U0'
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/snkrddl_blk_0_gmii_to_rgmii_1_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/snkrddl_blk_0_gmii_to_rgmii_1_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc] for cell 'U0'
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'snkrddl_blk_0_gmii_to_rgmii_1_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:7]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:20]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:21]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:24]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:32]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc:33]
+Finished Parsing XDC File [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/snkrddl_blk_0_gmii_to_rgmii_1_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/snkrddl_blk_0_gmii_to_rgmii_1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2272.738 ; gain = 0.000 ; free physical = 15491 ; free virtual = 23658
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 77 instances were transformed.
+  FD => FDRE: 30 instances
+  FDP => FDPE: 42 instances
+  IODELAYE1 => IDELAYE2: 5 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2272.773 ; gain = 0.000 ; free physical = 15489 ; free virtual = 23655
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15485 ; free virtual = 23654
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15485 ; free virtual = 23654
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/snkrddl_blk_0_gmii_to_rgmii_1_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15485 ; free virtual = 23654
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'STATE_reg' in module 'MDIO_INTERFACE'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+        idle_or_preamble |                      00000010000 |                             0000
+          wait_for_start |                      00001000000 |                             0001
+                opcode_1 |                      00000001000 |                             0010
+                opcode_2 |                      00000000001 |                             0011
+                ld_phyad |                      00000000010 |                             0100
+                ld_regad |                      00000000100 |                             0101
+                    ta_1 |                      10000000000 |                             0110
+                    ta_2 |                      00010000000 |                             0111
+                  data_1 |                      00100000000 |                             1000
+                  data_2 |                      01000000000 |                             1001
+                  data_3 |                      00000100000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'one-hot' in module 'MDIO_INTERFACE'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15480 ; free virtual = 23651
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               16 Bit    Registers := 4     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 5     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 37    
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 3     
+	  11 Input   11 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 5     
+	   2 Input    4 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 10    
+	   4 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port enable in module reset_sync is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_load_in in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[4] in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[3] in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[2] in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[1] in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[0] in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_load_in in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[4] in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[3] in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[2] in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[1] in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[0] in module gmii_to_rgmii_v4_1_13 is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (reset_sync1) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync2) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync3) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync4) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync5) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync6) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync1) is unused and will be removed from module reset_sync__6.
+WARNING: [Synth 8-3332] Sequential element (reset_sync2) is unused and will be removed from module reset_sync__6.
+WARNING: [Synth 8-3332] Sequential element (reset_sync3) is unused and will be removed from module reset_sync__6.
+WARNING: [Synth 8-3332] Sequential element (reset_sync4) is unused and will be removed from module reset_sync__6.
+WARNING: [Synth 8-3332] Sequential element (reset_sync5) is unused and will be removed from module reset_sync__6.
+WARNING: [Synth 8-3332] Sequential element (reset_sync6) is unused and will be removed from module reset_sync__6.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15442 ; free virtual = 23622
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15338 ; free virtual = 23518
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15338 ; free virtual = 23518
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15310 ; free virtual = 23490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15310 ; free virtual = 23490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15310 ; free virtual = 23490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15310 ; free virtual = 23490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15310 ; free virtual = 23490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15310 ; free virtual = 23490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15310 ; free virtual = 23490
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |BUFIO     |     1|
+|3     |IDDR      |     5|
+|4     |IODELAYE1 |     5|
+|5     |LUT2      |    17|
+|6     |LUT3      |    47|
+|7     |LUT4      |    12|
+|8     |LUT5      |    30|
+|9     |LUT6      |    56|
+|10    |MUXF7     |     8|
+|11    |MUXF8     |     4|
+|12    |ODDR      |     6|
+|13    |FD        |    30|
+|14    |FDP       |    30|
+|15    |FDRE      |   141|
+|16    |FDSE      |    24|
+|17    |IBUF      |     6|
+|18    |OBUF      |     6|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15310 ; free virtual = 23490
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 26 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2272.773 ; gain = 497.496 ; free physical = 15307 ; free virtual = 23490
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 2272.773 ; gain = 642.281 ; free physical = 15307 ; free virtual = 23490
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2272.773 ; gain = 0.000 ; free physical = 15874 ; free virtual = 24057
+INFO: [Netlist 29-17] Analyzing 88 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2272.773 ; gain = 0.000 ; free physical = 16168 ; free virtual = 24352
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 65 instances were transformed.
+  FD => FDRE: 30 instances
+  FDP => FDPE: 30 instances
+  IODELAYE1 => IDELAYE2: 5 instances
+
+Synth Design complete | Checksum: a7918f64
+INFO: [Common 17-83] Releasing license: Synthesis
+40 Infos, 62 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:40 . Memory (MB): peak = 2272.773 ; gain = 992.781 ; free physical = 16167 ; free virtual = 24350
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1674.984; main = 1382.852; forked = 323.739
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3215.172; main = 2272.742; forked = 974.445
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2296.750 ; gain = 0.000 ; free physical = 16164 ; free virtual = 24347
+INFO: [Common 17-1381] The checkpoint '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/snkrddl_blk_0_gmii_to_rgmii_1_0_synth_1/snkrddl_blk_0_gmii_to_rgmii_1_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP snkrddl_blk_0_gmii_to_rgmii_1_0, cache-ID = 9fe8899c9f385bad
+INFO: [Coretcl 2-1174] Renamed 16 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2296.750 ; gain = 0.000 ; free physical = 16183 ; free virtual = 24369
+INFO: [Common 17-1381] The checkpoint '/home/tasker/Projects/Vivado_workspace/PiSmasher_network/PiSmasher_network.runs/snkrddl_blk_0_gmii_to_rgmii_1_0_synth_1/snkrddl_blk_0_gmii_to_rgmii_1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file snkrddl_blk_0_gmii_to_rgmii_1_0_utilization_synth.rpt -pb snkrddl_blk_0_gmii_to_rgmii_1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 10 12:03:35 2024...

@@ -1,0 +1,18 @@
+vhdl xil_defaultlib  \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_proc_sys_reset_0_0/sim/snkrddl_blk_0_proc_sys_reset_0_0.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_clocking.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_resets.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_support.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_reset_sync.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0_block.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/snkrddl_blk_0_gmii_to_rgmii_0_0/simulation/demo_tb.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_0_0/synth/snkrddl_blk_0_gmii_to_rgmii_0_0.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/example_design/support/snkrddl_blk_0_gmii_to_rgmii_1_0_clocking.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/example_design/support/snkrddl_blk_0_gmii_to_rgmii_1_0_resets.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/example_design/support/snkrddl_blk_0_gmii_to_rgmii_1_0_support.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0_block.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/snkrddl_blk_0_gmii_to_rgmii_1_0/simulation/demo_tb.vhd" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_gmii_to_rgmii_1_0/synth/snkrddl_blk_0_gmii_to_rgmii_1_0.vhd" \
+
+# Do not sort compile order
+nosort

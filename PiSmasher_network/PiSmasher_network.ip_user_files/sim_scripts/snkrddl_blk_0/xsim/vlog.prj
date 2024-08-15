@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "/home/tasker/Programs/Xilinx/Vivado/2023.2/data/xilinx_vip/include" --include "../../../../PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ipshared/ec67/hdl" --include "../../../../PiSmasher_network.gen/sources_1/bd/snkrddl_blk_0/ipshared/570d/hdl" \
+"../../../bd/snkrddl_blk_0/ip/snkrddl_blk_0_processing_system7_0_0/sim/snkrddl_blk_0_processing_system7_0_0.v" \
+"../../../bd/snkrddl_blk_0/sim/snkrddl_blk_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
